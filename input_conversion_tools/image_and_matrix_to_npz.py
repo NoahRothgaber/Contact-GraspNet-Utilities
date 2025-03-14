@@ -122,7 +122,7 @@ def process_and_save_depth_images(input_folder, output_folder, camera_matrix):
 
 if __name__ == "__main__":
     # Define paths for your images, output folder, and camera matrix file
-    input_folder = "saved_images"              # Folder containing your rgb_*.png and depth_*.png files
+    input_folder = "input_data/softball_and_bleach"              # Folder containing your rgb_*.png and depth_*.png files
     output_folder = "processed_data"   # Folder where processed files will be saved
     camera_matrix_file = "camera_matrix.txt"     # File containing the camera matrix
 
